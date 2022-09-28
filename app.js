@@ -1,0 +1,18 @@
+let navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0"
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px"
+}
+
+let hideScroll =  document.querySelector("body");
+
+function overscroll() {
+    body.style.overflowX = "hidden"
+}
+
+
+
